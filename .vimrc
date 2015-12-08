@@ -17,5 +17,9 @@ set noeb vb t_vb=
 
 noremap <F3> :Autoformat<CR>
 noremap <F5> :buffers<CR>:buffer<Space>
+
+" set up ctrl-s to save 
+" stty -ixon 
+"added to .bashrc
 inoremap <C-s> <Esc>:write<CR>i  
 noremap <C-s> :write<CR><CR>  
